@@ -49,7 +49,7 @@ Smart-Yatra uses a centralized cloud database to mediate between the dual mobile
 
 **1. Clone the repository**
 ```bash
-git clone [https://github.com/YourUsername/Smart-Yatra.git](https://github.com/YourUsername/Smart-Yatra.git)
+git clone https://github.com/abikurian/Smart-Yatra.git
 ```
 
 2. Install dependencies
