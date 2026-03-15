@@ -58,35 +58,21 @@ flutter pub get
 ```
 
 3. Configure Firebase
-```Bash
+
 Add your google-services.json file to android/app/.
 
 Add your GoogleService-Info.plist file to ios/Runner/.
 
 (Note: These files are ignored via .gitignore for security).
-```
+
 4. Run the application
 
 ```Bash
 flutter run
+```
 👥 Contributors
-Abi Kurian Varghese (SNG23CS007)
+Abi Kurian Varghese 
 
 Archana Binu * Athul Krishnan K * Anand Krishna KJ Project Guide: Mrs. Lisha Kurian (Asst. Prof. CSE Dept, SNGCE)
-```
 
 ***
-
-### How to add this to your GitHub:
-1. Open your `README.md` file in VS Code.
-2. Delete whatever is in there right now.
-3. Paste the code from above.
-4. Save the file.
-5. Open your terminal and run:
-   * `git add README.md`
-   * `git commit -m "Add professional README"`
-   * `git push`
-
-Once that pushes, your GitHub page is going to look incredibly professional! 
-
-Would you like to switch gears back to your Word document and write the **Abstract** chapter, or
