@@ -1,0 +1,52 @@
+name: smart_yatra_student
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.7
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Icons
+  cupertino_icons: ^1.0.8
+  
+  # Firebase
+  firebase_core: ^3.0.0
+  cloud_firestore: ^5.0.0
+  
+  # Maps & Location
+  flutter_map: ^7.0.0
+  latlong2: ^0.9.1
+  geolocator: ^14.0.2
+  
+  # Features
+  url_launcher: ^6.3.0
+  shared_preferences: ^2.2.2  # Added for "Remember Me"
+  firebase_auth: ^5.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.13.1 # Added for App Logo
+  flutter_native_splash: ^2.4.7
+
+flutter:
+  uses-material-design: true
+
+# --- LOGO CONFIGURATION ---
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/app_icon.png" # Make sure you put your image here!
+  min_sdk_android: 21
+
+# --- NATIVE SPLASH SCREEN CONFIGURATION ---
+flutter_native_splash:
+  color: "#FFFDF6"
+  image: "assets/icon/app_icon.png"
+  android_12:
+    image: "assets/icon/app_icon.png"
+    color: "#FFFDF6"
