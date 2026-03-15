@@ -50,27 +50,30 @@ Smart-Yatra uses a centralized cloud database to mediate between the dual mobile
 **1. Clone the repository**
 ```bash
 git clone [https://github.com/YourUsername/Smart-Yatra.git](https://github.com/YourUsername/Smart-Yatra.git)
+```
+
 2. Install dependencies
-
-Bash
+```Bash
 flutter pub get
-3. Configure Firebase
+```
 
+3. Configure Firebase
+```Bash
 Add your google-services.json file to android/app/.
 
 Add your GoogleService-Info.plist file to ios/Runner/.
 
 (Note: These files are ignored via .gitignore for security).
-
+```
 4. Run the application
 
-Bash
+```Bash
 flutter run
 👥 Contributors
 Abi Kurian Varghese (SNG23CS007)
 
 Archana Binu * Athul Krishnan K * Anand Krishna KJ Project Guide: Mrs. Lisha Kurian (Asst. Prof. CSE Dept, SNGCE)
-
+```
 
 ***
 
